@@ -75,7 +75,7 @@ bwa index -a bwtsw bos.fa
 
 ### 3.3 - Create a dictionary and index for reference genome
 ```
-gatk CreateSequenceDictionary -R bos.fa
+picard CreateSequenceDictionary -R bos.fa
 samtools faidx bos.fa
 ```
 
